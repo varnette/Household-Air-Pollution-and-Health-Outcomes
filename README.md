@@ -34,6 +34,33 @@ A/B tests confirmed that eliminating the use of wood for cooking or improving ho
 
 ![health by type pic](https://github.com/user-attachments/assets/2eac2294-c72e-4897-8b9b-caf4aa2f01bd)
 
+Performance metrics for the random forest are noted below, followed by predicted health outcomes at the subnational level.
+
+| Dependent Variable (Age Standardized, per 100,000 Population)                        | Mean Absolute Error | Mean Squared Error | Root Mean Squared Error | R-squared | Average % Accuracy |
+|--------------------------------------------------------------------------------------|---------------------|--------------------|--------------------------|-----------|---------------------|
+| Death rate attributable to household air pollution - Total                           | 11.23               | 203.72             | 14.27                    | 0.84      | 87.19               |
+| Death rate attributable to household air pollution - COPD                            | 0.17                | 0.05               | 0.23                     | 0.80      | 93.27               |
+| Death rate attributable to household air pollution - Ischaemic heart disease         | 4.84                | 37.16              | 6.10                     | 0.73      | 84.29               |
+| Death rate attributable to household air pollution - Lower respiratory Infection     | 0.14                | 0.04               | 0.21                     | 0.86      | 95.62               |
+| Death rate attributable to household air pollution - Stroke                          | 3.26                | 18.03              | 4.25                     | 0.92      | 85.94               |
+| Death rate attributable to household air pollution - Trachea, bronchus, lung cancers | 0.18                | 0.06               | 0.23                     | 0.84      | 78.89               |
+| Disability Adjusted Life Years (DALYs) attributable to household air pollution - Total| 259.91              | 1126418.26         | 355.55                   | 0.88      | 87.87               |
+| Disability Adjusted Life Years (DALYs) attributable to household air pollution - Lower respiratory infection | 167.65             | 35780.58           | 189.16                   | 0.90      | 81.56               |
+| Disability Adjusted Life Years (DALYs) attributable to household air pollution - Trachea, bronchus, lung cancer | 0.28             | 0.14               | 0.37                     | 0.81      | 91.65               |
+| Disability Adjusted Life Years (DALYs) attributable to household air pollution - Cataracts | 4.61             | 35.89              | 5.99                     | 0.83      | 77.95               |
+| Disability Adjusted Life Years (DALYs) attributable to household air pollution - Ischaemic heart disease | 104.97            | 18608.45           | 136.41                   | 0.74      | 84.36               |
+| Disability Adjusted Life Years (DALYs) attributable to household air pollution - Stroke | 82.41              | 11686.19           | 108.10                   | 0.91      | 84.11               |
+| Disability Adjusted Life Years (DALYs) attributable to household air pollution - COPD | 0.16                | 0.05               | 0.22                     | 0.81      | 97.26               |
+| Death attributable to the environment - Total                                        | 16.14               | 405.28             | 20.13                    | 0.90      | 92.25               |
+| Death attributable to the environment - Infectious, parasitic, neonatal, and nutritional | 14.17            | 287.57             | 16.96                    | 0.85      | 74.04               |
+| Death attributable to the environment - Injuries                                      | 4.63                | 37.33              | 6.11                     | 0.83      | 88.27               |
+| Death attributable to the environment - Noncommunicable Diseases                      | 8.61                | 119.68             | 10.94                    | 0.88      | 92.95               |
+
+
+![subnat predict](https://github.com/user-attachments/assets/13b75bbe-1745-4b5b-a8ea-39cb8403de07)
+
+![subnat by condition](https://github.com/user-attachments/assets/cde964bf-46b1-4e58-a199-32c3b01ff12d)
+
 ## Discussion
 
 The findings highlight the importance of targeted public health interventions aimed at reducing health disparities in low-wealth regions. Improving access to electricity and promoting cleaner cooking fuels are actionable interventions that can reduce disease burden. The analysis underscores the need for more granular data to refine models and provide more specific recommendations for public health strategies.
