@@ -1,3 +1,7 @@
+## Targeting Interventions: Bridging the Data Gap in Household Air Pollution and Health Outcomes at the Subnational Level
+
+[View full report here](https://docs.google.com/document/d/1ffMM9habn9fEqMWWX90mDZaVvzD_LI-i2kjPFsOF9NQ/edit?usp=sharing)
+
 ## Executive Summary 📊
 
 This analysis aims to address the significant gap in region-specific health outcome data in developing countries, particularly concerning the impacts of household air pollution. Using data from the **World Health Organization (WHO)** and the **Global Data Lab**, a predictive model was developed utilizing variables such as the **International Wealth Index (IWI)**, access to electricity, types of cooking fuels, and other socioeconomic indicators. The study extends national-level predictions to regional levels where data is currently scarce.
