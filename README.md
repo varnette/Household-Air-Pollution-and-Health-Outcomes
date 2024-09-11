@@ -26,7 +26,13 @@ The analysis uses random forest regression to develop a model predicting health 
 
 The model demonstrates strong predictive performance across various health outcomes related to household air pollution and environmental factors. Key metrics, including Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), R-squared, and Average % Accuracy, were evaluated for different dependent variables. The analysis identified that household conditions, such as cooking fuel type and electricity access, significantly impact health outcomes, particularly in relation to Chronic Obstructive Pulmonary Disease (COPD).
 
-A/B tests confirmed that eliminating the use of wood for cooking or improving household conditions like flooring can significantly reduce COPD-related DALYs. Clustering analysis further revealed that low-wealth groups experience worse health outcomes compared to moderate and high-wealth groups, even when exposed to similar levels of environmental pollutants like PM2.5.
+A/B tests confirmed that eliminating the use of wood for cooking or improving household conditions like flooring can significantly reduce COPD-related DALYs. Clustering analysis further revealed that low-wealth groups experience worse health outcomes compared to moderate and high-wealth groups, even when exposed to similar levels of environmental pollutants like PM2.5.A/B tests confirmed that eliminating the use of wood for cooking or improving household conditions like flooring can significantly reduce COPD-related DALYs. Clustering analysis identified three primary groups—low wealth, moderate wealth, and high wealth—based on existing national data. These groups exhibited clear differences in health outcomes, with low-wealth groups experiencing significantly worse health outcomes compared to moderate and high-wealth groups, even when exposed to similar levels of environmental pollutants like PM2.5. This clustering further emphasizes the disparities in health conditions and highlights the need for targeted interventions in low-wealth regions.  The following 3 charts pertain to existing national data analyzed during the project. 
+
+![Clusters national pic ](https://github.com/user-attachments/assets/f92c9eaa-69e7-459d-b072-92092396e225)
+
+![bigger chart health outcomes](https://github.com/user-attachments/assets/7d8e70cf-00de-4fe9-be93-2145cfadbc2d)
+
+![health by type pic](https://github.com/user-attachments/assets/2eac2294-c72e-4897-8b9b-caf4aa2f01bd)
 
 ## Discussion
 
